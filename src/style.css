@@ -1,0 +1,229 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+td {
+  text-align: center;
+  border-right: 20px;
+}
+
+th {
+  color:rgb(254, 90, 108);  
+  padding-bottom: 20px;
+}
+
+.ul {
+  height: 85%;
+  padding-inline-start: 0;
+  
+}
+
+.ulConsulta {
+  padding-inline-start: 0px;
+}
+
+table {
+  padding: 5px;
+  color: rgb(221, 215, 215);
+  width:150px;
+}
+
+.tabNome {
+  width: 50%;
+}
+
+.tabTelefone {
+  width: 20%;
+}
+
+.tabSessao {
+  width: 15%;
+}
+
+.tabZona {
+  width: 15%;
+}
+
+.container {
+  height: 100vh;
+  background: rgb(33, 30, 50);
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.formulario {
+  width: 500px;
+  height: 570px;
+  background: rgb(49, 39, 65);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+}
+
+input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  padding: 0 30px;
+  width: 250px;
+  height: 40px;
+  border-radius: 5px;
+  background: rgb(33, 30, 50);
+  outline: 0;
+  color: white;
+}
+
+.botao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  margin: 20px 0 0 0;
+  margin-left: 60px;
+}
+
+.botao:hover {
+  cursor: pointer;
+  background: rgb(254, 90, 108);
+  transition: 0.5s;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.res {
+  color: white;
+  text-align: center;
+}
+
+.erro {
+  color: rgb(180, 180, 83);
+}
+
+.sucesso {
+  color: rgb(54, 109, 54);
+}
+
+.divTabela {
+  position: relative;
+  overflow: auto;
+  height: 500px;
+  width: 850px;
+  background: rgb(49, 39, 65);
+}
+
+.display {
+  width: 100%;
+  position: relative;
+}
+
+.tituloConsulta {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.botaoTab {
+  background: rgb(254, 90, 108);
+  cursor: pointer;
+  outline: 0;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+
+.botaoTab:hover {
+  background: rgb(33, 30, 50);
+  transition: 0.5s;
+}
+
+.inputPesquisa {
+  margin: 15px 30% 0 0;
+}
+
+.botaoPesquisa {
+  background: rgb(254, 90, 108);
+  outline: 0;
+  border-radius: 5px;
+  border: none;
+  color: white;
+}
+
+.divRodape {
+  display: flex;
+  justify-content: space-between;
+}
+
+.botaoAtualizar {
+  background: rgb(254, 90, 108);
+  outline: 0;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  height: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.botaoAtualizar:hover {
+  background: rgb(49, 39, 65);
+  transition: 0.5s;
+}
+
+.botaoExcel {
+  background: rgb(40, 120, 79);
+  outline: 0;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  height: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.botaoExcel:hover {
+  background: white;
+  color: rgb(40, 120, 79);
+  transition: 0.5s;
+}
+
+.botaoImprimir {
+  background: white;
+  outline: 0;
+  border-radius: 5px;
+  border: none;
+  color: black;
+  height: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.botaoImprimir:hover {
+  background: rgb(54, 47, 47);
+  color: white;
+  transition: 0.5s;
+}
+
+.divTabelaImprimir {
+  position: relative;
+  overflow: auto;
+  margin-top: 30px;
+  height: 570px;
+  width: 750px;
+  background: rgb(49, 39, 65);
+}
+
+.divRadio {
+  height: 59px;
+}

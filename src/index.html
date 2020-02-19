@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Cadastro</title>
+  <link rel="stylesheet" type="text/css" href="./style.css"/>
+</head>
+<body>
+  <div class="container">
+    <div class="formulario">
+      <ul class="ul">
+        <h3 class="titulo" id="titulo">DADOS DE CADASTRO</h3>
+        <div id='res' class="res"></div>
+   
+        <input id='nome' type='text' placeholder="Nome...">
+        <input id='telefone' type='text' oname="telefone" id="telefone" maxlength="15" placeholder="Telefone...">
+        <input id='sessao' type='text' placeholder="Sessão...">
+        <input id='zona' type='text' placeholder="Zona...">
+
+        <input class="botao" type="submit" onclick="cadastrar()" value="Cadastrar">
+        <input class="botao" type="button" onclick="consultar()" value="Consultar">
+      </ul>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>

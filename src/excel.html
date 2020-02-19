@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Excel</title>
+  <link rel="stylesheet" type="text/css" href="./style.css"/>
+</head>
+<body onload="exportTableToExcel('conteudo', 'Relatório de Cadastro')">
+  <div id="container" class="container">
+    <ul class="ulConsulta">
+    <div class="divTabelaImprimir">
+      <table id="conteudo" class="display">
+        <thead>
+            <tr>
+              <th>Nome</th>
+              <th>Telefone</th>
+              <th>Sessão</th>
+              <th>Zona</th>
+            </tr>
+          </thead>
+          <tbody data-table>
+          </tbody>
+      </table>
+    </div>
+  </ul>
+  </div>
+  <script src="./excel.js"></script>
+</body>
+</html>

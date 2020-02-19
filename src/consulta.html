@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Cadastro</title>
+  <link rel="stylesheet" type="text/css" href="./style.css"/>
+</head>
+<body id="body">
+  <div class="container">
+    <ul class="ulConsulta">
+    <h3 class="tituloConsulta">Consultar</h3>
+    <div class="divTabela">
+      <table class="display">
+          <thead>
+            <tr>
+              <th>Nome</th>
+              <th>Telefone</th>
+              <th>Sessão</th>
+              <th>Zona</th>
+              <th>x</th>
+            </tr>
+          </thead>
+          <tbody data-table>
+          </tbody>
+      </table>
+    </div>
+    <div class="divRodape">
+      <input type="text" id='inputFiltrar' onkeyup="filtrar()" placeholder="Filtrar pesquisa" class='inputPesquisa'>
+      <button class="botaoImprimir" id="imprimir" onclick='abrirImprimir()'>Imprimir</button>
+      <button class="botaoExcel" onclick="abrirExcel()">Excel</button>
+      <button class="botaoAtualizar" onclick="fecharConteudo()">Fechar</button>
+      <button class="botaoAtualizar" onclick="atualizarPag()">Atualizar página</button>
+    </div>
+  </ul>
+  </div>
+  <script src="./scriptConsulta.js"></script>
+</body>
+</html>
