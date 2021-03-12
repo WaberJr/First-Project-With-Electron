@@ -12,6 +12,6 @@
   "description": "",
   "dependencies": {
     "electron": "^6.0.12",
-    "jspdf": "^1.5.3"
+    "jspdf": "^2.3.1"
   }
 }
